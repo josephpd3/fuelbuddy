@@ -5,7 +5,7 @@ class PriceReport(models.Model):
     """
     Model which tracks a fuel price report by location, price, and octane rating
     """
-    created = models.DateTimeField(auto_now_add=True)
+    submitted = models.DateTimeField(auto_now_add=True)
     latitude = models.DecimalField(max_digits=9, decimal_places=6)
     longitude = models.DecimalField(max_digits=9, decimal_places=6)
     price = models.DecimalField(max_digits=8, decimal_places=2)

@@ -3,20 +3,33 @@
 
 ## Progress and Milestones
 --------
-[X] **Build out foundation w/ Django + create-react-app**
-[X] **Add model for Price Reports**
-[X] **Add serializers and views for Price Reports**
-[X] **Add date bounds to Price Reports**
-[X] **Enable Docker support to utilize Postgres and VM for Dev/Testing**
-[X] **Add tests for Price Report Views**
-[X] **Add Redux to React**
-[X] **Delineate Containers and Routes for Frontend**
---> ### Work stopped here at roughly 5 hours non-contiguous work
-[] **Add Google Maps support**
-[] **Add Datepickers + data retrieval actions**
-[] **Bound displayed markers w/ datepickers**
-[] **Add JWT Auth to Django/React**
-[] **Create Admin page for managing reports**
+[X] Build out foundation w/ Django + create-react-app
+
+[X] Add model for Price Reports
+
+[X] Add serializers and views for Price Reports
+
+[X] Add date bounds to Price Reports
+
+[X] Enable Docker support to utilize Postgres and VM for Dev/Testing
+
+[X] Add tests for Price Report Views
+
+[X] Add Redux to React
+
+[X] Delineate Containers and Routes for Frontend
+
+--> **Work stopped here at roughly 4.5 hours non-contiguous work**
+
+[] Add Google Maps support
+
+[] Add Datepickers + data retrieval actions
+
+[] Bound displayed markers w/ datepickers
+
+[] Add JWT Auth to Django/React
+
+[] Create Admin page for managing reports
 
 ## Getting Started
 --------

@@ -44,6 +44,7 @@ class PriceReportList(APIView):
                 'reason': 'start_date and/or end_date query parameters not present'
             }, status=status.HTTP_400_BAD_REQUEST)
         else:
+            # Attempt to unpackage dates from query param strings
             try:
                 start_date = datetime.datetime.strptime(start_timestamp, '%Y-%m-%d')
                 end_date = datetime.datetime.strptime(end_timestamp, '%Y-%m-%d')
